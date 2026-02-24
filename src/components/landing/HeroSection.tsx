@@ -61,7 +61,7 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Button size="lg" asChild className="rounded-full px-8 h-13 text-base shadow-luxury group">
-              <Link to="/signup">
+              <Link to="/generate">
                 Transform Your Pet
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
