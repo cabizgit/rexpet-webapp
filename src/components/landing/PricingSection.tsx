@@ -7,26 +7,26 @@ import { Check, Sparkles } from "lucide-react";
 const plans = [
   {
     name: "Single",
-    credits: 1,
-    price: "€9.99",
+    credits: 2,
+    price: "€4.99",
     description: "Try it out",
-    features: ["1 AI portrait generation", "1K resolution", "Download included", "30-day access"],
+    features: ["2 AI portrait creations", "1K resolution", "Download included", "30-day access"],
     popular: false,
   },
   {
     name: "Bundle",
-    credits: 5,
-    price: "€39.99",
+    credits: 10,
+    price: "€14.99",
     description: "Most popular",
-    features: ["5 AI portrait generations", "1K resolution", "All 8 styles", "Download included", "30-day access"],
+    features: ["10 AI portrait creations", "1K resolution", "All 6 styles", "Download included", "30-day access"],
     popular: true,
   },
   {
     name: "Collection",
-    credits: 10,
-    price: "€69.99",
+    credits: 20,
+    price: "€24.99",
     description: "Best value",
-    features: ["10 AI portrait generations", "1K resolution", "All 8 styles + custom", "Download included", "30-day access", "Priority generation"],
+    features: ["20 AI portrait creations", "1K resolution", "All 6 styles + custom", "Download included", "30-day access", "Priority generation"],
     popular: false,
   },
 ];
@@ -61,7 +61,7 @@ const PricingSection = () => {
             transition={{ delay: 0.2 }}
             className="text-muted-foreground max-w-xl mx-auto text-lg"
           >
-            One credit, one masterpiece. No subscriptions, no hidden fees.
+            Buy credits, then create portraits. No subscriptions, no hidden fees.
           </motion.p>
         </div>
 
@@ -88,7 +88,7 @@ const PricingSection = () => {
                   <CardTitle className="font-serif text-2xl">{plan.name}</CardTitle>
                   <div className="mt-4">
                     <span className="font-serif text-5xl font-bold text-foreground">{plan.price}</span>
-                    <span className="text-muted-foreground ml-1 text-sm">/ {plan.credits} {plan.credits === 1 ? "credit" : "credits"}</span>
+                    <span className="text-muted-foreground ml-1 text-sm">/ {plan.credits} creations</span>
                   </div>
                 </CardHeader>
                 <CardContent className="flex-1 flex flex-col pt-6">
@@ -102,7 +102,7 @@ const PricingSection = () => {
                   </ul>
                   <Button
                     asChild
-                    className={`mt-8 w-full rounded-full ${plan.popular ? "" : "variant-outline"}`}
+                    className={`mt-8 w-full rounded-full`}
                     variant={plan.popular ? "default" : "outline"}
                   >
                     <Link to="/signup">Get {plan.name}</Link>
