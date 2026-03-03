@@ -42,7 +42,7 @@ AI image processing tools
 
 Getting Started (Local Development)
 1. Clone the repository
-git clone https://github.com/cabizgit/RexPet_WebApp.git
+git clone https://github.com/cabizgit/rexpet-webapp.git
 2. Enter the project directory
 cd RexPet_WebApp
 3. Install dependencies
