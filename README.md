@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+RexPet WebApp
 
-## Project info
+RexPet is an AI-powered web application that transforms a photo of your pet into a regal, elegant masterpiece.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Upload your animal’s picture and let artificial intelligence generate a refined, royal-style portrait inspired by classical nobility aesthetics.
 
-## How can I edit this code?
+Features
 
-There are several ways of editing your application.
+Upload a photo of your pet
 
-**Use Lovable**
+AI-powered image transformation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Regal and elegant portrait styling
 
-Changes made via Lovable will be committed automatically to this repo.
+Modern, responsive web interface
 
-**Use your preferred IDE**
+Fast processing and clean UI
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+How It Works
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The user uploads a pet photo.
 
-Follow these steps:
+The image is processed through AI-based transformation tools.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The system generates a stylized royal portrait.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The final image can be previewed and downloaded.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Vite
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn-ui
+
+AI image processing tools
+
+Getting Started (Local Development)
+1. Clone the repository
+git clone https://github.com/cabizgit/RexPet_WebApp.git
+2. Enter the project directory
+cd RexPet_WebApp
+3. Install dependencies
+npm install
+4. Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The app will run locally with hot reload enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployment
 
-**Use GitHub Codespaces**
+Deployment can be handled through your preferred hosting provider (e.g. Vercel, Netlify) or through Lovable if still connected to the platform.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Project Vision
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+RexPet aims to merge AI creativity with emotional value.
+Pets are part of the family — this project turns them into timeless royal portraits.
